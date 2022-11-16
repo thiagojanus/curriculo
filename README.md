@@ -1,2 +1,2 @@
 # curriculo
-https:// zezindococo.github.io./curriculo/
+https://zezindococo.github.io./curriculo/
