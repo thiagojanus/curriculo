@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Secular One', sans-serif;
   color: #272829;
 }
 
@@ -42,7 +42,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #0563bb;
+  background: #00003a;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -56,13 +56,44 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #0678e3;
+  background: #09098d;
   color: #fff;
 }
 
 .back-to-top.active {
   visibility: visible;
   opacity: 1;
+}
+
+.card {
+  width: 75%;
+  --bs-card-spacer-y: 1rem;
+  --bs-card-spacer-x: 1rem;
+  --bs-card-title-spacer-y: 0.5rem;
+  --bs-card-border-width: 1px;
+  --bs-card-border-color: var(--bs-border-color-translucent);
+  --bs-card-border-radius: 0.375rem;
+  --bs-card-box-shadow: ;
+  --bs-card-inner-border-radius: calc(0.375rem - 1px);
+  --bs-card-cap-padding-y: 0.5rem;
+  --bs-card-cap-padding-x: 1rem;
+  --bs-card-cap-bg: rgba(0, 0, 0, 0.03);
+  --bs-card-cap-color: ;
+  --bs-card-height: ;
+  --bs-card-color: ;
+  --bs-card-bg: #fff;
+  --bs-card-img-overlay-padding: 1rem;
+  --bs-card-group-margin: 0.75rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  height: var(--bs-card-height);
+  word-wrap: break-word;
+  background-color: var(--bs-card-bg);
+  background-clip: border-box;
+  border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+  border-radius: var(--bs-card-border-radius);
 }
 
 /*--------------------------------------------------------------
@@ -221,7 +252,7 @@ h6 {
 .nav-menu .active:focus,
 .nav-menu li:hover>a {
   color: #fff;
-  background: #bb0514;
+  background: #00003a;
 }
 
 .nav-menu a:hover span,
@@ -284,7 +315,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/Capturar.PNG") top right no-repeat;
+  background: url("../img/80d52eea024ccbaa76e7f88e03af4715.jpg") top right no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -310,18 +341,18 @@ h6 {
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
-  color: #45505b;
+  color: rgb(48, 45, 45);
 }
 
 #hero p {
-  color: #45505b;
+  color: rgb(48, 45, 45);
   margin: 15px 0 0 0;
   font-size: 26px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Secular One', sans-serif;
 }
 
 #hero p span {
-  color: #bb0514;
+  color: #00003a;
   letter-spacing: 1px;
 }
 
@@ -356,6 +387,7 @@ h6 {
     margin-top: 10px;
     font-size: 20px;
     line-height: 24px;
+    font-family: 'Secular One', sans-serif;
   }
 }
 
