@@ -65,9 +65,12 @@ h6 {
   opacity: 1;
 }
 
+
+
 .card {
+  text-align: center;
   width: 70%; 
-  line-height: 1.3;
+
   --bs-card-spacer-y: 1rem;
   --bs-card-spacer-x: 1rem;
   --bs-card-title-spacer-y: 0.5rem;
@@ -102,8 +105,6 @@ h6 {
   border-top-right-radius: var(--bs-card-inner-border-radius);
 }
 
-.card-img, .card-img-bottom, .card-img-top {
-}
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -378,7 +379,7 @@ h6 {
 }
 
 #hero .social-links a:hover {
-  color: #0563bb;
+  color: #00003a;
 }
 
 @media (max-width: 992px) {
@@ -439,7 +440,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #0563bb;
+  background: #00003a;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -1070,7 +1071,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #0563bb;
+  color: #00003a;
   float: left;
   width: 44px;
   height: 44px;
@@ -1105,7 +1106,7 @@ section {
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #0563bb;
+  background: #00003a;
   color: #fff;
 }
 
@@ -1176,7 +1177,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #0563bb;
+  background: #00003a;
   border: 0;
   padding: 10px 35px;
   color: #fff;
@@ -1242,7 +1243,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #0563bb;
+  background: #00003a;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1255,7 +1256,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #0678e3;
+  background: #00003a;
   color: #fff;
   text-decoration: none;
 }
